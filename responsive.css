@@ -1,0 +1,126 @@
+
+
+
+@media only screen and (max-width:520px) {
+    .left_d1 {
+        grid-column: 1 / -1;
+        padding: 30px 5px 0 10px;
+    }
+    .right_d1 {
+        grid-column: 1 / -1;
+    
+    }
+    .lorem_d1 {
+        padding: 20px 0;
+        line-height: 2.8ch;
+        width: 100%;
+    }
+    .heading_d1 {
+        font-size: 50px;
+    }
+    .btn_audio_d1 {
+        padding: 10px 15px;
+        border: none;
+        border-radius: 25px;
+        color: #FFFFFF;
+        background-color: #FC0254;
+        font-size: 15px;
+    }
+    
+    .btn_vedio_d1 {
+        padding: 10px 15px;
+        border: none;
+        border-radius: 25px;
+        color: #FFFFFF;
+        background-color: #383B70;
+        font-size: 15px;
+    }
+    .display2{
+        height: auto;
+        padding-bottom: 20px;
+    }
+    .left_d2 {
+        grid-column: 1 / -1;
+        height: auto;
+    }
+    .left_d2>h1 {
+        font-size: 50px;
+        padding: 50px 20px 10px 20px;
+    }
+    
+    .right_d2 {
+        grid-column: 1 / -1;
+        height: auto;
+    }
+    
+    .right_d2>p {
+        padding: 10px 20px 0 20px;
+        line-height: 3ch;
+        color: rgb(111, 111, 111);
+        text-align: justify;
+    }
+    
+    .right_d2>button {
+        padding: 15px 30px;
+        border: none;
+        border-radius: 25px;
+        color: #FFFFFF;
+        background-color: #FC0254;
+        font-size: 15px;
+        margin-left: 20px;
+        margin-top: 30px;
+    
+    }
+    .display3 {
+        height: auto;
+        background-color: #1d1f3f;
+        color: #FFFFFF;
+    }
+    
+    .up_d3 {
+        grid-column: 1 / -1;
+        font-size: 30px;
+        padding: 50px 0px 0px 10px;
+    }
+    
+    .container_d3 {
+    
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(200px, 2fr));
+        padding: 20px 20px 10px 20px;
+    }
+    
+    .working_process {
+        padding: 0 20px 50px 0;
+    }
+    
+    .working_process>h2 {
+        padding: 0 0 10px 0;
+    }
+
+
+    footer {
+        height: auto;
+        display: block;
+        /* grid-template-columns: repeat(auto-fit, minmax(200px, 2fr)); */
+        background-color: #1d1f3f;
+        color: #FFFFFF;
+    }
+    
+   
+    .left_footer {
+        display: block;
+        padding-left: 80px;
+    }
+    .right_footer {
+        padding: 50px 40px 10px 50px;
+    }
+    
+    .right_footer i {
+        padding: 10px;
+    }
+    
+    .right_footer p {
+        padding: 30px 0;
+    }
+}
